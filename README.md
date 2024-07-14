@@ -46,7 +46,7 @@ Resources:
 <br/>
 
 1. Anything can validate a transaction whatever we want , all we have to do is code a smart contract that says here is what that signs my transaction.
-2. Once we deploy this , when we actaully wanna send a transaction, we first sign the data and we send to a group of Alt-Mempool nodes.
+2. Once we deploy this , when we actually wanna send a transaction, we first sign the data and we send to a group of Alt-Mempool nodes.
 3. These nodes are gonna be the one to combine everything into a single `User Operation` & call the `handleOps` function on the `EntryPoint.sol` contract.
 4. This function will do a lot of validation then if it looks good it will call your account contract, then it will execute/call the daap its working with etc.
 5. This is really fantastic because you can sign and send transactions where you don't pay any gas , if you have set up a `Pay Master` .
@@ -65,9 +65,9 @@ Resources:
 
 - Phase 1 : Validation
 
-    1. The user sends the transaction to the "zkSync API client" (sort of a "light node")
-    2. The zkSync API client checks to see the nonce is unique by querying the NonceHolder system contract
-    3. The zkSync API client calls validateTransaction, which MUST update the nonce
+    1. The user sends the transaction to the "zkSync API client" (sort of a "light node").
+    2. The zkSync API client checks to see the nonce is unique by querying the NonceHolder system contract.
+    3. The zkSync API client calls validateTransaction, which MUST update the nonce.
     4. The zkSync API client checks the nonce is updated.
     5. The zkSync API client calls payForTransaction, or prepareForPaymaster & validateAndPayForPaymasterTransaction.
     6. The zkSync API client verifies that the bootloader gets paid.
