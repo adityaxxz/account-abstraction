@@ -79,9 +79,10 @@ Resources:
     9. If the paymaster was used, the postTransaction is called.
 
 
-- One of the big difference between **Native Account Abstraction** & **EntryPoint based Account Abstraction** is that:
-    - In EntryPoint based AA, the `from` is gonna be whatever node or user who actually created the transaction. 
-    - Whereas, On ZKsync with Native AA , the `from` is actually gonna be the smart contract wallet itself.   
+> One of the big difference between **Native Account Abstraction** & **EntryPoint based Account Abstraction** is that:
+
+> - In EntryPoint based AA, the `from` is gonna be whatever node or user who actually created the transaction.
+> - Whereas, On ZKsync with Native AA , the `from` is actually gonna be the smart contract wallet itself.   
 
 ### commands used : 
 ```
