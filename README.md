@@ -31,7 +31,7 @@ Resources:
    2. We *do* send our zkSync transaction to the alt-mempool
 
 
-## <ins>Things to do</ins> 
+## <ins>Things done</ins> 
 
 1. Create a basic Account Abstraction on Ethereum.
 2. Create a basic Account Abstraction on zkSync.
