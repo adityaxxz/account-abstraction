@@ -84,13 +84,13 @@ Resources:
 > - In EntryPoint based AA, the `from` is gonna be whatever node or user who actually created the transaction.
 > - Whereas, On ZKsync with Native AA , the `from` is actually gonna be the smart contract wallet itself.   
 
-### packages installed
+### packages installed :
 ```
 forge install eth-infinitism/account-abstraction@v0.7.0 --no-commit
 forge install openzeppelin/openzeppelin—contracts@v5.0.2 --no-commit
 forge install Cyfrin/foundry-devops --no-commit
 
-#For Installing foundry-zksync packages:-
+# For Installing foundry-zksync packages:-
 git clone https://github.com/matter-labs/foundry-zksync.git
 cd foundry-zksync
 ./install-foundry-zksync
