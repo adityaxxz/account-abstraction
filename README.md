@@ -33,11 +33,11 @@ Resources:
 
 ## <ins>Things done</ins> 
 
-1. Created a basic Account Abstraction on Ethereum.
-2. Created a basic Account Abstraction on zkSync.
-3. Deployed, and sent a userOp / transaction through them.
-    1. Not going to send an AA to Ethereum
-    2. But sent an AA tx to zkSync sepolia
+- [x] Created a basic Account Abstraction on Ethereum.
+- [x] Created a basic Account Abstraction on zkSync.
+- [x] Deployed, and sent a userOp / transaction through them.
+    - [ ] Not going to send an AA to Ethereum
+    - [x] But sent an AA tx to zkSync sepolia
 
 ## <ins>How it works in Ethereum</ins> 
 
